@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#222;
+}
+
+.music-player{
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  text-align:center;
+  width:320px;
+}
+
+.music-player img{
+  width:100%;
+  border-radius:10px;
+}
+
+.music-player h1{
+  margin-bottom:15px;
+}
+
+.controls button{
+  padding:10px 15px;
+  margin:10px;
+  border:none;
+  background:#00adb5;
+  color:white;
+  font-size:18px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.controls button:hover{
+  background:#007b80;
+}
+
+#progress{
+  width:100%;
+  margin-top:15px;
+}
+
+.volume{
+  margin-top:15px;
+}
